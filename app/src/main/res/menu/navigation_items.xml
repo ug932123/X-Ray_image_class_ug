@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/home1"/>
+
+    <item android:id="@+id/efficientnetb7"
+        android:title="EfficientNetB7"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/terraform_svgrepo_com"/>
+
+    <item android:id="@+id/efficientnetb3"
+        android:title="EfficientNetB3"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/terraform_svgrepo_com"/>
+
+    <item android:id="@+id/resnet"
+        android:title="ResNet"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/terraform_svgrepo_com"/>
+
+    <item android:id="@+id/vvg"
+        android:title="VGG16"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/terraform_svgrepo_com"/>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/aboutus"/>
+
+    <item android:id="@+id/Logout_menu"
+        android:title="Logout"
+        android:fontFamily="@font/montserrat_regular"
+        android:icon="@drawable/logout"/>
+
+
+
+
+
+
+
+</menu>

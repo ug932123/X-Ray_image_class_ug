@@ -1,0 +1,357 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    tools:context=".AboutUs"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_margin="8dp">
+
+        <!-- About App Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT THE APP"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="This app is designed and developed to partially fulfill the
+requirements for Major Project(8th Sem) and showcase the team's ability as an Android Developers and ML Developers with
+expertise in Java and Python. "
+            android:textSize="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#000000" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="ADDITIONAL INFORMATION"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:justificationMode="inter_word"
+            android:gravity="center"
+            android:text="This app is built with the intention of demonstrating the developer's skills in Android development and ML development. For more information, please contact the developers directly."
+            android:textSize="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#000000" />
+
+        <!-- Additional Information Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="DISCLAIMER"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:justificationMode="inter_word"
+            android:gravity="center"
+            android:text="This app send user data to server hosted and maintained by Team."
+            android:textSize="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#000000" />
+
+        <!-- Developer Bio Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEVELOPERS"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/uddhav"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Developer picture"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Uddhav Gupta"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ML Developer"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Developer"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Delhi, IN"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/amisha"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Developer picture"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Amisha Sharma"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data Analyst"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ML Developer"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shillong, IN"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/siddhant"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Developer picture"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Siddhant Das"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI/UX Designer"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shillong, IN"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/developer_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/manab"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Developer picture"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/developer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Manab Das"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI/UX Designer"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guwahati, IN"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/developer_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="16dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

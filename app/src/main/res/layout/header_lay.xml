@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="196dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="25dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    android:background="@drawable/main_header_selector">
+
+
+
+    <ImageView
+        android:id="@+id/nehu_logo"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/logo_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="X-Cam"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="0dp"
+        />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">X-Cam</string>
+    <string name="open">Open Nav Menu</string>
+    <string name="close">Close Nav Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
